@@ -1,0 +1,63 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>54</x><y>54</y><w>135</w><h>117</h></coordinates><panel_attributes>BarajaInglesa
+
+--
+
+--
++ BarajaInglesa ( )
++ mostrarBaraja ( ) : void
+- generarBaraja ( ) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>81</y><w>135</w><h>135</h></coordinates><panel_attributes>/Carta/
+
+--
+- tapada : boolean
+--
++ Carta ( )
++ darVuelta ( ): void
++ mostrar ( ): void
+- toString ( ): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>306</y><w>135</w><h>99</h></coordinates><panel_attributes>CartaJoker
+
+--
+- aColor : boolean
+--
++ CartaJoker ( boolean )
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>369</x><y>306</y><w>135</w><h>99</h></coordinates><panel_attributes>/CartaConPalo/
+
+--
+
+--
++ CartaConPalo ( palo )
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>486</y><w>162</w><h>99</h></coordinates><panel_attributes>CartaNumeral
+
+--
+- numero : int
+--
++ CartaNumeral ( int, Palo )
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>459</x><y>486</y><w>153</w><h>99</h></coordinates><panel_attributes>CartaFigura
+
+--
+- letra : char
+--
++ CartaFigura ( char, Palo )
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>333</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+Palo
+--
+
+_ + DIAMANTE ( Color.ROJO )_
+_ + CORAZON( Color.ROJO )_
+_ + PICA( Color.NEGRO )_
+_ + TREBOL( Color.NEGRO)_
+
+--
+
+- Palo ( Color )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>171</y><w>81</w><h>99</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+Color
+--
+
+_ + ROJO_
+_ + NEGRO_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>207</y><w>99</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;110</additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>207</y><w>117</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>396</y><w>99</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;100</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>396</y><w>90</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>81</y><w>117</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- cartas</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>333</y><w>153</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- palo</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>711</x><y>261</y><w>54</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- color</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
