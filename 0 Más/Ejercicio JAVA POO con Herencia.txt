@@ -6,9 +6,17 @@ link del video: https://youtu.be/bZqg0kAFY5A
 descripcion del video:
 ¡Nada mejor que aprender y afianzar la POO haciendo ejercicios! En esta oportunidad, veremos cómo trabajar con herencia, mediante el modelado y codificación de la baraja inglesa usada en juegos como el Poker o el Blackjack. Detectaremos las clases del enunciado y las plasmaremos en UML. Luego, pasaremos tal modelo a un proyecto de Java y lo codificaremos.
 
+---------------------
 Link hacia el enunciado: https://drive.google.com/file/d/1aSf1_b_7yuXYoQR8lkUeA_2Mc1J4wNfj/view
 
+Enunciado:
 
+Modelá en UML la baraja inglesa. ¡No olvides los Jokers!
+
+Luego, codificalo en Java. Creá una baraja que contenga las 54 cartas (13 por palo y dos jokers)
+autogeneradas.
+
+-------------------
 Mi perfil en GitHub: https://github.com/orellana-max
 
 repositorio en GitHub POO_Herencia_Integrador_Baraja_Inglesa:
