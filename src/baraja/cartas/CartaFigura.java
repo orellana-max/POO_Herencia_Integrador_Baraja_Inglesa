@@ -3,8 +3,8 @@ package baraja.cartas;
 import baraja.Palo;
 
 /**
- * @author @author Maximiliano Orellana
- * Mi perfil en GitHub: https://github.com/orellana-max
+ * @author @author Maximiliano Orellana Mi perfil en GitHub:
+ * https://github.com/orellana-max
  */
 public class CartaFigura extends CartaConPalo {
 
@@ -14,7 +14,10 @@ public class CartaFigura extends CartaConPalo {
         super(palo);
         this.letra = letra;
     }
-    
-    
-    
+
+    @Override
+    public String getRepresentacion() {
+        return letra + super.getRepresentacion();
+    }
+
 }

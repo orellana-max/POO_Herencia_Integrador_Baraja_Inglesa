@@ -23,8 +23,8 @@ repositorio en GitHub POO_Herencia_Integrador_Baraja_Inglesa:
 https://github.com/orellana-max/POO_Herencia_Integrador_Baraja_Inglesa.git
 
 
-
-
+nota: Se modifica el codigo del proyecto usando POLIMORFISMO para poder mostrar todas las cartas por consola, viendo el video de Charly Cimino "Ejemplo de POLIMORFISMO 🔗 en JAVA ☕ La baraja inglesa".
+link: https://youtu.be/sh6ZgKUICj0
 
 
 

@@ -5,24 +5,33 @@ package baraja.cartas;
  * https://github.com/orellana-max
  */
 public abstract class Carta {
-    
-    private boolean tapada;
-    
-    public Carta() {
-    // por defecto, 'tapada' es false
-    }
-    
-    public void mostrar(){
-    
-    }
-    
-    public void darVuelta(){}
 
-    @Override
-    public String toString() {
-        return "Carta{" + "tapada=" + tapada + '}';
+    private boolean tapada;
+
+    public boolean isTapada() {
+        return tapada;
     }
-    
-    
-    
+
+    public Carta() {
+        // por defecto, 'tapada' es false
+        this.tapada = true;
+    }
+
+    public void darVuelta() {
+        tapada = !tapada;
+    }
+
+    public void mostrar() {
+
+        if (tapada) {
+            System.out.println("********");
+        } else {
+            System.out.println(getRepresentacion());
+        }
+    }
+
+    public String getRepresentacion() {
+        return "Carta Genérica";
+    }
+
 }

@@ -10,7 +10,12 @@ descripcion del video:
 
 Link hacia el enunciado: https://drive.google.com/file/d/1aSf1_b_7yuXYoQR8lkUeA_2Mc1J4wNfj/view
 
+Luego... Se modifica el codigo del proyecto usando POLIMORFISMO para poder mostrar todas las cartas por consola, viendo el video de Charly Cimino "Ejemplo de POLIMORFISMO 🔗 en JAVA ☕ La baraja inglesa". link del video: https://youtu.be/sh6ZgKUICj0
+descripcion del video: 
+Retomamos el ejercicio de herencia donde modelamos una baraja inglesa (• EJERCICIO de POO ...  ) para poder mostrar ahora todas las cartas en la consola, usando, nuevamente, POLIMORFISMO.
 
+
+----------------------------------------------------------------
 Mi perfil en GitHub: https://github.com/orellana-max
 
 repositorio en GitHub POO_Herencia_Integrador_Baraja_Inglesa:
